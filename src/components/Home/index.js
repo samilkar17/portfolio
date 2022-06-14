@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { Link } from "react-scroll";
 import userImg from "../../assets/images/user.png";
 export default function Home() {
   return (
@@ -21,17 +22,17 @@ export default function Home() {
               invito a ver mis proyectos!
             </p>
             <button className="py-3 px-6 my-4 rounded-lg text-white bg-cyan-500 hover:bg-[#1da1f2]/90 shadow-lg shadow-cyan-500/50 sm:w-[60%]">
-              Ver proyectos
+              <Link to="projects">Ver proyectos</Link>
             </button>
             <div className="flex space-x-4">
-              <button className="socialBtn bg-[#24292F] hover:bg-[#24292F]/50 ">
+              <a
+                href="https://github.com/samilkar17"
+                target="_blank"
+                className="socialBtn bg-[#24292F] hover:bg-[#24292F]/50 "
+              >
                 <FaGithub className="mr-2 w-6 h-6" />
                 Github
-              </button>
-              <button className="socialBtn bg-[#0A66C2] hover:bg-[#0A66C2]/90 ">
-                Linked
-                <FaLinkedin className="ml-2  w-6 h-6" />
-              </button>
+              </a>
             </div>
           </div>
           <div className="hero">
