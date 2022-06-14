@@ -9,7 +9,7 @@ export default function About() {
         <h1 className="sub-title">Me presento</h1>
         <p className="text-xl">
           Soy Ingeniero Multimedia, egresado de la{" "}
-          <strong className="border-b-2 border-cyan-700">
+          <strong className="border-b-2 border-cyan-700 text-white">
             Universidad Autónoma de Occidente.
           </strong>{" "}
           Con interés de trabajar en el area de la tecnología. Con experiencia
