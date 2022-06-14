@@ -20,15 +20,18 @@ export default function Project() {
                     alt=""
                   />
                 </div>
-                
-                <a href={project.demo} target="_blank" className="projectBtn bg-blue-500 shadow-lg shadow-blue-500/50 hover:bg-[#1da1f2]/90">
-                  Demostración
+
+                <a
+                  href={project.demo}
+                  target="_blank"
+                  className="projectBtn bg-blue-500 shadow-lg shadow-blue-500/50 hover:bg-[#1da1f2]/90"
+                >
+                  Ver
                   <FaCode className="ml-2  w-5 h-5" />
                 </a>
               </div>
             );
           })}
-      
         </div>
       </div>
     </>

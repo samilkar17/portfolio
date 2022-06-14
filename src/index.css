@@ -12,10 +12,10 @@
     @apply md:h-screen lg:h-screen xl:h-screen;
   }
   .title {
-    @apply text-2xl;
+    @apply text-2xl text-cyan-600 font-medium;
   }
   .sub-title {
-    @apply text-5xl font-bold text-cyan-600;
+    @apply text-5xl font-bold text-white;
   }
   .logo {
     @apply flex justify-center items-center relative bg-[#0F172A] rounded-full h-12 w-12 text-3xl font-logo font-bold p-4;
@@ -67,7 +67,7 @@
     @apply text-white;
   }
   p {
-    @apply text-gray-200;
+    @apply text-gray-400;
   }
   input{
     @apply block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-cyan-600 focus:shadow-lg focus:shadow-cyan-200/10;
