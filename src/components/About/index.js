@@ -6,7 +6,7 @@ export default function About() {
     <div name="about" className="w-full responsive my-32 padding relative">
       <div className="max-w-[1240px] mx-auto ">
         <h1 className="title ">Mucho Gusto</h1>
-        <h1 className="sub-title">Me presento</h1>
+        <h1 className="sub-title">Me Presento</h1>
         <p className="text-xl">
           Soy Ingeniero Multimedia, egresado de la{" "}
           <strong className="border-b-2 border-cyan-700 text-white">
