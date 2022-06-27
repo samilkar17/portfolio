@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.d17cdaf7.css",
+    "main.js": "/portfolio/static/js/main.a919babc.js",
+    "static/media/omdb-api.png": "/portfolio/static/media/omdb-api.37a845fd07ce312043fc.png",
+    "static/media/marvel-api.png": "/portfolio/static/media/marvel-api.31a715c4b440634df6d2.png",
+    "static/media/app_taxi.png": "/portfolio/static/media/app_taxi.8ccba483bb1bea7e3032.png",
+    "static/media/app_centro_medico.png": "/portfolio/static/media/app_centro_medico.4a6e4351a3ddd2ef1eda.png",
+    "static/media/ac.png": "/portfolio/static/media/ac.27c17b40a4ecf9e36bc7.png",
+    "static/media/procastina.png": "/portfolio/static/media/procastina.82523461a5f70d682746.png",
+    "static/media/user.png": "/portfolio/static/media/user.308a6ab22d69ee547601.png",
+    "static/media/sign.png": "/portfolio/static/media/sign.36c5f2e99ec9293d877a.png",
+    "static/media/super-R.png": "/portfolio/static/media/super-R.f30754276acf76ecb7b3.png",
+    "static/media/video-interactivo.png": "/portfolio/static/media/video-interactivo.bc1e9834405826286af9.png",
+    "index.html": "/portfolio/index.html",
+    "main.d17cdaf7.css.map": "/portfolio/static/css/main.d17cdaf7.css.map",
+    "main.a919babc.js.map": "/portfolio/static/js/main.a919babc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d17cdaf7.css",
+    "static/js/main.a919babc.js"
+  ]
+}
