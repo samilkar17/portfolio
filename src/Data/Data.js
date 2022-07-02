@@ -27,21 +27,7 @@ export const codeXp = [
     heading: "React JS",
     color: "#50BBD7",
   },
-  {
-    icon: FaHtml5,
-    heading: "HTML",
-    color: "#FD7E14",
-  },
-  {
-    icon: FaCss3,
-    heading: "CSS",
-    color: "#15AABF",
-  },
-  {
-    icon: FaJs,
-    heading: "JavaScrip",
-    color: "#EFD81D",
-  },
+  
   {
     icon: FaJava,
     heading: "Java",
@@ -56,6 +42,21 @@ export const codeXp = [
     icon: FaUnity,
     heading: "Unity 3D",
     color: "#000000",
+  },
+  {
+    icon: FaHtml5,
+    heading: "HTML",
+    color: "#FD7E14",
+  },
+  {
+    icon: FaCss3,
+    heading: "CSS",
+    color: "#15AABF",
+  },
+  {
+    icon: FaJs,
+    heading: "JavaScrip",
+    color: "#EFD81D",
   },
 ];
 
