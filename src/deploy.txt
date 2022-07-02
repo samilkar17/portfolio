@@ -1,0 +1,20 @@
+step-1:{
+    git remote {url}
+    git add -A
+    git commit -m "add certifications"
+    git push -u origin main
+}
+step-2:{
+    add url in package.json
+    "homepage": "https://samilkar17.github.io/portfolio",
+    add gh-pages npm package
+    npm install gh-page --save-dev
+}
+step-3:{
+    create deploy script & deploy
+    add in package:{
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
+    }
+    final:{npm run deploy}
+}

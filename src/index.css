@@ -29,9 +29,7 @@
   .mobileButton {
     @apply absolute top-0 left-0 w-full lg:h-screen h-screen bg-[#0F172A] flex flex-col justify-center items-center;
   }
-  .socialBtn {
-    @apply flex items-center px-3 py-2 text-white font-medium rounded-lg text-sm;
-  }
+ 
   .hero {
     @apply flex m-auto  py-6 order-1 w-96 h-96 rounded-full shadow-lg shadow-cyan-600/50 overflow-hidden;
   }
@@ -46,7 +44,7 @@
     @apply max-w-[1240px] mx-auto flex flex-col justify-center w-full h-full;
   }
   .card {
-    @apply mx-auto flex flex-col justify-between items-center space-y-4 p-6 max-w-[345px] max-h-[365px] border  border-cyan-500 rounded-3xl bg-[#0F172A]/40 bg-opacity-20 backdrop-blur-md  drop-shadow-md shadow-lg shadow-cyan-600/50;
+    @apply mx-auto flex flex-col justify-between items-center space-y-2 p-4 max-w-[345px] max-h-[365px] border  border-cyan-500 rounded-3xl bg-[#0F172A]/40 bg-opacity-20 backdrop-blur-md  drop-shadow-md shadow-lg shadow-cyan-600/50;
   }
   .projectBtn {
     @apply flex items-center px-3 py-2 rounded-md text-white;
