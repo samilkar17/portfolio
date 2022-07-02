@@ -24,6 +24,8 @@ export default function Home() {
             <Link
               to="projects"
               className="flex justify-center items-center cursor-pointer py-3 px-6 my-4 rounded-lg text-white bg-cyan-500 hover:bg-[#1da1f2]/90 shadow-lg shadow-cyan-500/50 sm:w-[60%]"
+              smooth={true}
+              duration={500}
             >
               Ver proyectos
             </Link>
